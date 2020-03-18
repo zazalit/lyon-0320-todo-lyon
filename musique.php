@@ -1,33 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-    
-    <head>
-        <title>ToDoLyon</title>
-        <meta name="Description" content="Site touristique répertoriant certaines
-        activités sur Lyon et ses alentours."/>
-        <meta charset="UTF-8"/>
-        <meta name="authors" content="Best equip">
-        <!--<link rel="stylesheet" href="style.css" />-->
-        <link rel="stylesheet" href="MusiqueStyle.css" />
-        <link href="https://fonts.googleapis.com/css?family=Bellota|Pacifico&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-    </head>
-    <body>
-        <header>
-            <div>
-                <a href=#><img src="https://i.imgur.com/d2eEvLw.png" alt="Logo_TDL"  class="logoHeader"></a>
-            </div>
-            <h1 class="mainTitleHeader">ToDoLyon</h1>
-            <nav class="navHeader">
-                <ul class="ulHeader">
-                    <li class="liHeader"><a href="index.html" title="Trouver mon activité">Trouver mon activité</a></li>
-                    <li class="liHeader"><a href="#Contact" title="Contactez-nous, on ne mord pas !">Contactez-nous !</a></li>
-                    <li class="liHeader"><a href="#" title="Faites connaissance avec l'équipe !">On te parle de nous</a></li> <!-- Ajouter URL vers page "à propos" dans href -->
-                    <li class="liHeader"><a href="#" title="Que pensez-vous du site ?">Sondage</a></li> <!-- Ajouter URL vers page "sondage" dans href -->
-                </ul>
-            </nav>
-        </header>
+<?php require '_header.php'; ?>
         
         <main>
             
@@ -161,52 +132,9 @@
             </section>
                
         </main>
-
-        <footer>
-            <div>
-                <a href=#><img src="https://i.imgur.com/d2eEvLw.png" alt="Logo_TDL" id="logoFooter"></a>
-            </div>
-
-            <nav class="navListeFooter">
-                <ul class="listeFooter">
-                    <li><a href="index.html" title="lien vers le menu" class="texteFooter">Trouver mon activité</a></li>
-                    <li><a href="index.html" title="lien vers le sondage" class="texteFooter">Sondage</a></li>
-                    <li><a href="#" title="lien vers les mentions légales" class="texteFooter">Mentions légales</a></li>
-                    <li><a href="#" title="lien vers la FAQ" class="texteFooter">FAQ</a></li>
-                </ul>
-            </nav>
-            <div id="thirdcolumn">
-                <nav id="navSocialNetworks">
-                    <h2 id="followUs" class="texteFooter">Nous suivre:</h1>
-                    <ul class="socialNetworks">
-                        <li><a href="https://twitter.com" title="lien vers notre profil Twitter"><img class="twitter" src="https://www.bassin-arcachon.com/wp-content/uploads/2017/02/logo-twitter-bleu.png" alt="Logo_Twitter"></a></li>
-                        <li><a href="https://facebook.com" title="lien vers notre profil Facebook"><img class="facebook" src="https://cdn.icon-icons.com/icons2/159/PNG/256/facebook_22567.png" alt="Logo_FB"></a></li>
-                        <li><a href="https://instagram.com" title="lien vers notre profil instagram"><img class="instagram" src="https://www.followerspascher.com/wp-content/uploads/2016/06/1466927228_social-instagram-new-circle.png" alt="Logo_instagram"></a></li>
-                    </ul>
-                </nav>
-
-                <div id="research">
-                    <form>
-                        <input class="caseFooter" type="search" id="site-search" name="q" aria-label="Search through site content">
-                        <button type="submit" class="caseFooter">Rechercher</button>
-                    </form>
-                </div>
-            </div>
-        </footer>
-    <!--<footer>
-        <nav>
-            <ul>
-                <li><a href="#" title="notre mascotte">"<img class="" src="" alt="Logo_TDL"></li>
-                <li><a href="URL_FAQ" title="FAQ"><img src="" alt="image_FAQ"></a></li> ajouter URL FAQ -->
-               <!-- <li><a href="#Categories" title="lien vers le menu">Trouver mon activité</a></li>
-                <li><a href="URL_sondage" title="lien vers le sondage">Sondage</a></li>
-                <li><a href="#" title="lien vers les mentions">Mentions légales</a></li>
-                <li><a href="https://twitter.com" title="lien vers notre profil Twitter"><img class="" src="" alt="Logo_Twitter"></a></li>
-                <li><a href="https://facebook.com" title="lien vers notre profil Facebook"><img class="" src="" alt="Logo_FB"></a></li>
-                <li><a href="https://instagram.com" title="lien vers notre profil instagram"><img class="" src="" alt="Logo_instagram"></a></li>
-            </ul>
-        </nav>
-    </footer>-->
+        
+        <?php require '_footer.php'; ?>
+        
 
 </body>
 
